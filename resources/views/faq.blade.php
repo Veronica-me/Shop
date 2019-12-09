@@ -1,3 +1,25 @@
+@extends('main')
+
+@section('title')
+    FAQ
+@endsection
+
+
+@section('content')
+    <div class="title m-b-md">
+        FAQ
+    </div>
+    <p>На этой страничке когда-то будут ответы на вопросы, а пока пусть будет этот текст</p>
+
+@endsection
+
+
+
+
+<!--
+
+
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -6,10 +28,10 @@
 
         <title>FAQ</title>
 
-        <!-- Fonts -->
+
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
-        <!-- Styles -->
+        <!-- Styles
         <style>
             html, body {
                 background-color: #fff;
